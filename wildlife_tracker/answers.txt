@@ -1,0 +1,33 @@
+
+Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+Epic: Onboarding experience
+User Story: As a vanilla git power-user that has never seen GiggleGit before, I want to quickly understand how my existing git workflow would function in Gigglegit so that I can assess if Gigglegit is a good fit for me and my team’s workflows and so I can easily transition my existing git workflows to GiggleGit, while leveraging my existing git skills all while enjoying the new benefits of meme-based merge management.
+As a team lead onboarding an experienced GiggleGit user I want to quickly and easily assign permissions and roles to the teams GiggleGit repository so that the new user can start contributing with the team efficiently.
+As a developer merging code in the repo and resolving conflicts, I want to select memes that are relevant to the nature of the merge so that the merge conflicts are effectively communicated within the repo to members of the repo.
+Task : Implement meme selection for merges
+Ticket 1: Create a searchable meme library for merges
+Details: Create a library of culturally relevant and well known memes that cover most common merges and merge conflicts, such as syntax errors or conflicting changes. Make sure that the memes are able to be easily understood and provide entertainment value while not being too inappropriate or offensive. Ensure that the memes are easily searchable. Initially include at least 100 memes. 
+Ticket 2: 
+Implement an interface to choose memes for merges
+Details:
+Design and implement an interface for users to select the meme they would like to use. Include the availability for the user to search for memes within the library. Users should be able to browse all the available memes, preview the meme, and select the one they want. 
+3. This is more of a functional req than a meme because it lacks context for the user and does not connect to the user’s wants, motivations or needs.
+
+
+
+Goal: 
+Conduct user studies to understand and evaluate the user satisfaction of the new SnickerSync diff tool and its various features compared to existing diff tools. 
+Non Goal:
+Provide advanced features and customization for individual users beyond what is in the study
+
+User Access Control and Security
+Non Functional: Ensure that all data collected in the study and user data is securely protected and only accessible if authorized, while ensuring only authorized PMs can modify the different snickering concepts.
+Functional:
+Implement roles that restrict access to study data based off of the role ie PMs, devs
+Encrypt all data using encryption algorithms and require 2-FA to access the data
+Randomization and Configuration
+Non Functional: Allow PMs to easily maintain different and randomized schemes for snickering concepts without requiring developers to assist.
+Functional:
+Implement an interface for PMs to manage, create, edit, and delete different configurations of snickering schemes
+Implement a system to automatically assign users to testing groups and control groups for A/B testing, ensuring user groups are well randomized and distributed.
+
