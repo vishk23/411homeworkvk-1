@@ -4,6 +4,7 @@ from wildlife_tracker.migration_tracking.migration import Migration
 from wildlife_tracker.habitat_management.habitat import Habitat
 
 class MigrationManager:
+    
     def __init__(self):
         self.paths: dict[int, MigrationPath] = {}
         self.migrations: dict[int, Migration] = {}
